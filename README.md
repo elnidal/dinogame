@@ -2,6 +2,8 @@
 
 A simple browser-based game where you control a dinosaur that jumps over wolves. Built with HTML, CSS, and JavaScript.
 
+🎮 [Play the game](https://elnidal.github.io/dinogame)
+
 ## How to Play
 
 - Press Space or Up Arrow to make the dinosaur jump
@@ -15,10 +17,12 @@ A simple browser-based game where you control a dinosaur that jumps over wolves.
 - Score tracking
 - Forward-moving jumps
 - Sound effects
+- Speech bubbles
+- Wolf obstacles
 - Turkish interface
 
 ## Technologies Used
 
 - HTML5
 - CSS3
-- JavaScript
+- JavaScript 

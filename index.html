@@ -1,17 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta tags and title -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dinosaur Game</title>
+    <title>Dino Jump</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="game">
-        <div id="dino"></div>
-        <div id="cactus"></div>
+    <!-- Game Container -->
+    <div class="game-container">
+        <!-- Main Game Area -->
+        <div class="game">
+            <div id="dino"></div>
+            <div class="barriers"></div>
+        </div>
+        
+        <!-- Score Display -->
+        <div class="score">Score: <span id="scoreSpan">0</span></div>
+        
+        <!-- Game Over Screen -->
+        <div id="gameOver" class="hidden">
+            <h2>Volkanlandınız!</h2>
+            <p>Final Score: <span id="finalScore">0</span></p>
+            <button id="retry">Baştan Oyna</button>
+        </div>
     </div>
-    <div class="score">Score: <span id="scoreSpan">0</span></div>
+
+    <!-- Audio Element -->
+    <audio id="jumpSound" src="uhuuuuu.mp3"></audio>
+    
+    <!-- JavaScript -->
     <script src="script.js"></script>
 </body>
 </html>
